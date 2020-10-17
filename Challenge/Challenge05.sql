@@ -31,8 +31,8 @@ SELECT title FROM SONGS;
 
 SELECT title FROM songs Where mood == "epic" OR released > 1990;
 
-/** As pessoas se tornam exigentes no fim da noite. Adicione outro SELECT que usa ANDpara mostrar títulos de músicas épicas, "epic", e lançadas após 1990, e que tenham menos de 4 minutos de duração.
-Perceba que a coluna de duração, duration, é medida em segundos. **/
+/** People become demanding at the end of the night. Add another SELECT that uses AND to show epic song titles, "epic", released after 1990, and that are less than 4 minutes long.
+Note that the duration column, duration, is measured in seconds.**/
 
 SELECT title FROM songs Where mood == "epic" AND released > 1990 AND duration < 240;
 
